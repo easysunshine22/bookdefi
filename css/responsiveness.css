@@ -1,0 +1,151 @@
+@media (max-width: 320px) {
+  #contact-us-article h2 {
+    font-size: 50px;
+  }
+  .logo img {
+    /* max-width: 70px; */
+    height: 60px;
+  }
+}
+@media (max-width: 360px) {
+  #home-article h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .telegram-link{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-home-container h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .inner-home-container p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 345px) {
+  .inner-whitepaper-container h2, .inner-roadmap-container h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 822px) {
+  .home-article-container h2 {
+    font-size: 70px;
+    letter-spacing: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .top-nav {
+    position: absolute;
+    width: 85%;
+    height: 100vh;
+    background-color: #fff;
+    left: -1000%;
+    top: 0;
+    transition: 0.5s;
+  }
+  .inner-header-wrapper .top-nav.show-mobile-nav {
+    left: 0;
+  }
+  .inner-header-wrapper .top-nav ul {
+    display: block;
+    margin-top: 150px;
+  }
+  .inner-header-wrapper .top-nav ul li a {
+    border-bottom: 1px solid #d3d1d144;
+    padding-left: 17px;
+    color: #000;
+  }
+
+  .inner-header-wrapper .top-nav .mobile-link{
+    display: block;
+  }
+  .nav-btn-sell-buy {
+    margin-top: 19px;
+  }
+  .nav-btn-sell-buy a {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .mobile-toggle {
+    display: block;
+  }
+
+  .inner-home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-article-container {
+    text-align: center;
+  }
+  .intro {
+    width: 100%;
+    margin: auto;
+  }
+  .home-article-container {
+    padding-top: 2.5em;
+  }
+  .home-article-container h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 450px) {
+  .nav-btn-sell-buy a {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 363px) {
+  .home-article-container .intro {
+    font-size: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .top-footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .middle-footer {
+    border-left: none;
+    border-top: 1px solid rgb(197, 195, 195);
+  }
+  .right-footer {
+    border-left: none;
+  }
+}
+@media (max-width: 550px) {
+  .home-article-container {
+    padding-top: 70px;
+  }
+  .home-article-container a {
+    padding: 15px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    font-size: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .btn-sell-buy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logo a {
+    font-size: 50px;
+  }
+  .logo strong {
+    font-size: 15px;
+  }
+}
