@@ -116,7 +116,7 @@
   }
   .middle-footer {
     border-left: none;
-    border-top: 1px solid rgb(197, 195, 195);
+    border-top: 1px solid rgba(197, 195, 195, 0.13);
   }
   .right-footer {
     border-left: none;
