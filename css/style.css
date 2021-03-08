@@ -183,8 +183,8 @@ section {
   transition: .5;
 }
 .footer-container{
-  /* border: 1px solid red; */
-  background-color: rgba(209, 208, 208, 0.568);
+  background-color: #212540;
+  color: #fff;
 }
 
 .top-footer-container{
@@ -207,10 +207,11 @@ section {
 }
 .left-footer-article h2{
   font-size: 15px;
+  font-weight: 300;
 }
 .middle-footer{
   width: 100%;
-  border-left: 1px solid rgb(197, 195, 195);
+  border-left: 1px solid rgba(197, 195, 195, 0.13);
   padding: 20px;
 }
 .footer-links ul li{
@@ -219,7 +220,7 @@ section {
 }
 .footer-links ul li a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -229,14 +230,14 @@ section {
 }
 .right-footer{
   width: 100%;
-  border-left: 1px solid rgb(197, 195, 195);
+  border-left: 1px solid rgba(197, 195, 195, 0.13);
 }
 .bottom-footer-container{
   max-width: 1200px;
   width: 90%;
   margin: auto;
   text-align: center;
-  border-top: 1px solid rgb(197, 195, 195);
+  border-top: 1px solid rgba(197, 195, 195, 0.13);
   padding-top: 10px;
   padding-bottom: 10px;
 }
