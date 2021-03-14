@@ -50,6 +50,7 @@ section {
 }
 .logo {
   padding-top: 5px;
+  display: flex;
 }
 .logo img {
   max-width: 100%;
@@ -65,7 +66,14 @@ section {
   color: #000;
   font-family: "Akaya Telivigala", cursive;
 }
-
+.logo h2 {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 25px;
+}
 .inner-header-wrapper .top-nav ul {
   margin: 0;
   padding: 0;
