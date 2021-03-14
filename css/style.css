@@ -67,7 +67,7 @@ section {
   font-family: "Akaya Telivigala", cursive;
 }
 .logo h2 {
-  color: #8b74bd;
+  color: #0000FF;
   font-size: 20px;
   letter-spacing: 2px;
   float: right;
@@ -101,7 +101,7 @@ section {
   margin-top: 13px;
 }
 .nav-btn-sell-buy a {
-  background: linear-gradient(270deg, #8b74bd 0%, #8b74bd 100%);
+  background: linear-gradient(270deg, #0000FF 0%, #0000FF 100%);
   padding: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -111,7 +111,7 @@ section {
   text-transform: uppercase;
 }
 .nav-btn-sell-buy a:hover {
-  background: linear-gradient(270deg, #3a353f 0%, #8b74bd 100%);
+  background: linear-gradient(270deg, #3a353f 0%, #0000FF 100%);
   transition: 0.5s;
 }
 .inner-header-wrapper .top-nav ul li a:hover,
@@ -175,7 +175,7 @@ section {
 }
 .inner-home-container p, .inner-home-container span {
   font-size: 20px;
-  color: #8b74bd;
+  color: #0000FF;
   max-width: 700px;
 }
 /* .inner-home-container span {
@@ -196,7 +196,7 @@ section {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 10px;
-  background-color: #8b74bd;
+  background-color: #0000FF;
   color: #fff;
   font-weight: bold;
   margin: 10px;
