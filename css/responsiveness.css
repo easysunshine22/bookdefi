@@ -76,15 +76,17 @@
     display: block;
   }
 
-  .inner-home-container {
+  /* .inner-home-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
   }
   .home-article-container {
     text-align: center;
-  }
+    border: 1px solid red;
+  } */
   .intro {
     width: 100%;
     margin: auto;

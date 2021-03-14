@@ -26,16 +26,19 @@ section {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-bottom: 6.6em;
-  background-color: #F1AA4E;
+  background-color: #000000;
 }
 .header-wrapper {
   width: 100%;
-  height:  1vh;
+  height: 1vh;
   position: fixed;
-  background-color: #212540;
+  background-color: transparent;
   z-index: 9999;
   top: 0;
   padding-bottom: 6em;
+}
+.headerChangeColor {
+  background-color: #000000be;
 }
 .inner-header-wrapper {
   max-width: 1200px;
@@ -44,8 +47,8 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-} 
-.logo{
+}
+.logo {
   padding-top: 5px;
 }
 .logo img {
@@ -78,30 +81,30 @@ section {
   line-height: 50px;
   letter-spacing: 1.5px;
   margin: 0 15px;
-  color: #FFF;
+  color: #fff;
   display: block;
   text-transform: uppercase;
   /* font-weight: bold; */
 }
-.inner-header-wrapper .top-nav .mobile-link{
+.inner-header-wrapper .top-nav .mobile-link {
   display: none;
 }
-.nav-btn-sell-buy{
+.nav-btn-sell-buy {
   margin-top: 13px;
 }
-.nav-btn-sell-buy a{
-	background: linear-gradient(270deg, #F1AA4E 0%, #F1AA4E 100%);
+.nav-btn-sell-buy a {
+  background: linear-gradient(270deg, #f1aa4e 0%, #f1aa4e 100%);
   padding: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
-	color: #212540;
+  color: #212540;
   font-weight: bold;
-	text-decoration: none;
+  text-decoration: none;
   text-transform: uppercase;
 }
-.nav-btn-sell-buy a:hover{
-  background: linear-gradient(270deg, #3a353f 0%, #F1AA4E 100%);
-  transition: .5s;
+.nav-btn-sell-buy a:hover {
+  background: linear-gradient(270deg, #3a353f 0%, #f1aa4e 100%);
+  transition: 0.5s;
 }
 .inner-header-wrapper .top-nav ul li a:hover,
 .inner-header-wrapper .top-nav ul li a.active {
@@ -146,93 +149,101 @@ section {
 .inner-home-container {
   max-width: 1200px;
   width: 90%;
-  height: 100vh;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
 }
+
 .inner-home-container h2 {
   font-size: 50px;
   letter-spacing: 3px;
   color: #000;
   text-transform: uppercase;
-    /* margin-bottom: 30px; */
+  color: #fff;
 }
-.inner-home-container p{
+.inner-home-container p {
   font-size: 30px;
+  color: #fff;
 }
-.telegram-link{
+.big-img-logo img {
+  max-width: 100%;
+  height: 50vh;
+}
+.telegram-link {
   margin-top: 30px;
 }
-.telegram-link a{
+.telegram-link a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 10px;
-  background-color: #3E45AD;
+  background-color: #3e45ad;
   color: #fff;
   margin: 10px;
 }
-.telegram-link a:hover{
+.telegram-link a:hover {
   background-color: #3e45adc5;
-  transition: .5;
+  transition: 0.5;
 }
-.footer-container{
+.footer-container {
   background-color: #212540;
   color: #fff;
 }
 
-.top-footer-container{
+.top-footer-container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-.footer-logo img{
+.footer-logo img {
   height: 70px;
 }
-.left-footer, .middle-footer, .right-footer{
+.left-footer,
+.middle-footer,
+.right-footer {
   min-height: 5vh;
 }
-.left-footer{
+.left-footer {
   width: 100%;
   padding-top: 13px;
   padding-bottom: 20px;
 }
-.left-footer-article h2{
+.left-footer-article h2 {
   font-size: 15px;
   font-weight: 300;
 }
-.middle-footer{
+.middle-footer {
   width: 100%;
   border-left: 1px solid rgba(197, 195, 195, 0.13);
   padding: 20px;
 }
-.footer-links ul li{
+.footer-links ul li {
   list-style: none;
   margin-top: 10px;
 }
-.footer-links ul li a{
+.footer-links ul li a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
 }
-.footer-links ul li a:hover{
+.footer-links ul li a:hover {
   text-decoration: underline;
   font-weight: bold;
 }
-.right-footer{
+.right-footer {
   width: 100%;
   border-left: 1px solid rgba(197, 195, 195, 0.13);
 }
-.bottom-footer-container{
+.bottom-footer-container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
