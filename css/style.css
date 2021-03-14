@@ -67,7 +67,7 @@ section {
   font-family: "Akaya Telivigala", cursive;
 }
 .logo h2 {
-  color: #fff;
+  color: #F1AA4E;
   font-size: 20px;
   letter-spacing: 2px;
   float: right;
@@ -173,10 +173,15 @@ section {
   text-transform: uppercase;
   color: #fff;
 }
-.inner-home-container p {
-  font-size: 30px;
-  color: #fff;
+.inner-home-container p, .inner-home-container span {
+  font-size: 20px;
+  color: #F1AA4E;
+  max-width: 700px;
 }
+/* .inner-home-container span {
+  font-size: 20px;
+  color: #fff;
+} */
 .big-img-logo img {
   max-width: 100%;
   height: 50vh;
@@ -191,12 +196,13 @@ section {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 10px;
-  background-color: #3e45ad;
-  color: #fff;
+  background-color: #F1AA4E;
+  color: #000;
+  font-weight: bold;
   margin: 10px;
 }
 .telegram-link a:hover {
-  background-color: #3e45adc5;
+  background-color: #f1aa4e86;
   transition: 0.5;
 }
 .footer-container {
